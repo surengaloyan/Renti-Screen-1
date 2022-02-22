@@ -47,19 +47,25 @@ class _RentiState extends State<Renti> {
                 padding: const EdgeInsets.all(20),
                 child: Column(
                   children: <Widget>[
+                    //֊֊֊֊֊dropdown----------------
                     CustomDropdownButtonState(),
                     const SizedBox(height: 16),
+                    //֊֊֊֊֊income block------------
                     const CustomIncomeBlock(),
                     const SizedBox(height: 16),
+                    //֊֊֊֊֊expence block-----------
                     const CustomExpenceBlock(),
                     const SizedBox(height: 17),
+                    //-----multi navigation block--
                     const CustomMultiNavBlock(),
                   ],
                 ),
               ),
+              //-----------admission block---------
               const CustomAdmissionBar(),
             ],
           ),
+          //---------------bottom navigation bar---
           bottomNavigationBar: const CustomBottomNavBar(),
         ),
       ),
