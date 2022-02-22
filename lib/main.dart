@@ -29,7 +29,7 @@ class _RentiState extends State<Renti> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Rubik'),
-      home: Container(
+      home: Container(//---for gradient background-----
         alignment: Alignment.center,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
